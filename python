@@ -14,6 +14,9 @@ for binary in numbers:
     if decimal % 5 == 0:
         result.append(binary)
 print(",".join(result))
+## output:
+1010,1100,1011,1111
+1010,1111
 
 ## Write a Python program that accepts a sentence and calculate the number of
 letters and digits.
@@ -34,7 +37,10 @@ for char in sentence:
     digits+=1
 print(letters)
 print(digits)
-
+output:
+im prathyusha 123344
+12
+6
 ##  Write a program which can compute the factorial of a given numbers.The
 results should be printed in a comma-separated sequence on a single
 line.Suppose the following input is supplied to the program:8
@@ -51,6 +57,7 @@ for n in numbers:
     result.append(str(fact))
 print(','.join(result))
 
-## output
-
+## output:
+4,5
+24,120
 
